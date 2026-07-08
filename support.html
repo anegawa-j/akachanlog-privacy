@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>あかちゃんログ サポート</title>
+  <style>
+    :root { --bg:#faf8f0; --card:#ffffff; --accent:#8bc34a; --text:#3a3a3a; --sub:#6b6b6b; }
+    * { box-sizing: border-box; }
+    body {
+      margin:0; background:var(--bg); color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+      line-height:1.75; -webkit-font-smoothing:antialiased;
+    }
+    .wrap { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
+    header { text-align:center; padding:24px 0 8px; }
+    .logo { font-size:44px; }
+    h1 { font-size:24px; margin:8px 0 4px; }
+    .lead { color:var(--sub); margin:0; }
+    .card { background:var(--card); border-radius:16px; padding:20px 22px; margin:18px 0;
+      box-shadow:0 1px 3px rgba(0,0,0,0.05); }
+    h2 { font-size:18px; margin:4px 0 12px; color:#4a7a1e; }
+    .faq { margin:14px 0; }
+    .q { font-weight:700; margin:0 0 4px; }
+    .a { margin:0; color:var(--sub); }
+    a { color:#4a7a1e; }
+    .contact a { font-weight:700; font-size:18px; }
+    footer { text-align:center; color:var(--sub); font-size:13px; margin-top:28px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">👶</div>
+      <h1>あかちゃんログ サポート</h1>
+      <p class="lead">育児記録アプリ「あかちゃんログ」のサポートページです。</p>
+    </header>
+
+    <div class="card contact">
+      <h2>お問い合わせ</h2>
+      <p>ご質問・不具合のご報告は、以下のメールアドレスまでお気軽にご連絡ください。
+        数日以内にお返事いたします。</p>
+      <p><a href="mailto:junichiro16160329@gmail.com?subject=あかちゃんログ%20お問い合わせ">junichiro16160329@gmail.com</a></p>
+      <p style="color:var(--sub);font-size:14px;">
+        不具合のご報告時は、お使いの端末・iOSバージョン・発生した操作を書き添えていただけると助かります。
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>よくある質問</h2>
+
+      <div class="faq">
+        <p class="q">アカウント登録は必要ですか？</p>
+        <p class="a">いいえ。記録・グラフ・育児日記などの機能は、登録やログインなしでご利用いただけます。
+          記録は既定でお使いの端末内に保存されます。</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">家族とデータを共有できますか？</p>
+        <p class="a">はい。「共有」をオンにしたお子さまは、招待コードで家族と記録を共有できます。
+          共有を使わない場合、データは端末内のみに保存されます。</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">招待コードでの参加方法は？</p>
+        <p class="a">共有する側で「このお子さまを共有」→「招待コードを発行」。
+          参加する側は「招待コードで参加」からコードを入力してください（コードは1回のみ有効・発行から7日以内）。</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">機種変更・再インストールしても記録は残りますか？</p>
+        <p class="a">共有中（またはクラウドにバックアップ済み）のお子さまは、
+          「アカウントを保護（Appleと連携）」しておくと、新しい端末で「別の端末から引き継ぐ」から復元できます。
+          共有していない記録は、設定の「ファイルに書き出す（JSON）」で手動バックアップできます。</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">データを書き出し・バックアップできますか？</p>
+        <p class="a">はい。設定の「データ」から、JSON（全データ）や CSV（表計算用）で書き出せます。
+          JSON は「ファイルから復元」で読み込めます。</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">アカウントを削除したい</p>
+        <p class="a">共有をご利用の場合、設定の「アカウント」→「アカウントを削除」から、
+          共有グループとクラウド上のデータ・サインイン情報を削除できます。</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>関連リンク</h2>
+      <p><a href="./">プライバシーポリシー</a></p>
+    </div>
+
+    <footer>
+      <p>あかちゃんログ</p>
+    </footer>
+  </div>
+</body>
+</html>
